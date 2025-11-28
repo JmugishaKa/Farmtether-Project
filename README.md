@@ -1,11 +1,12 @@
-FarmTether
-Prototype (Demo)
+**FarmTether**
+
+**Prototype (Demo)**
 FarmTether is a prototype linking smallholder farmers and buyers. This demo implements user registration/login, farmer product listings, seller browsing and ordering, simulated payment, and admin stats.
 
 Overview
 FarmTether is designed to empower farmers by providing a user-friendly platform that facilitates direct sales to buyers. It aims to enhance food security and improve the livelihoods of farmers in rural Africa.
 
-Table of Contents
+**Table of Contents**
 Features
 Technologies Used
 Requirements
@@ -20,16 +21,16 @@ Contributions
 License
 Author
 
-Features
+**Features**
 
-User Registration and Authentication: Farmers and buyers can quickly create accounts and log in securely.
-Product Listings: Farmers can list their products with descriptions, images, and prices.
-Price Dashboard: Users can view average pricing trends for various products to make informed purchasing decisions.
-Order Management: Buyers can place orders and track their statuses in real-time.
-Admin Dashboard: Admins can manage users, products, and view analytics on sales and user activity.
-Responsive Design: A seamless experience across devices, optimized for both desktop and mobile users.
+- User Registration and Authentication: Farmers and buyers can quickly create accounts and log in securely.
+- Product Listings: Farmers can list their products with descriptions, images, and prices.
+- Price Dashboard: Users can view average pricing trends for various products to make informed purchasing decisions.
+- Order Management: Buyers can place orders and track their statuses in real-time.
+- Admin Dashboard: Admins can manage users, products, and view analytics on sales and user activity.
+- Responsive Design: A seamless experience across devices, optimized for both desktop and mobile users.
 
-Technologies Used
+**Technologies Used**
 Backend:
 
 Node.js
@@ -38,15 +39,17 @@ Sequelize (ORM)
 SQLite (Database)
 JSON Web Tokens (JWT) for authentication
 Frontend:
-
 React.js
 Bootstrap for responsive UI
 Axios for making HTTP requests
-Requirements
+
+**Requirements**
+
 Node.js (v18+)
 npm (Node Package Manager)
-Project Structure
-mipsasm
+
+**Project Structure**
+
 FarmTether/
 ├── backend/                # Contains the backend code
 │   ├── config/
@@ -61,7 +64,7 @@ FarmTether/
     ├── App.js
     └── index.js
 
-Installation
+**Installation**
 Backend
 Navigate to the backend directory:
 
@@ -101,11 +104,12 @@ Start the frontend:
 bash
 npm start  # Open http://localhost:3000
 
-Demo Accounts (Seeded)
+**Demo Accounts (Seeded)**
 Admin: Phone 000, Password adminpass
 Farmer: Phone 250700000001, Password farmerpass
 Seller: Phone 250700000002, Password sellerpass
-How to Demo
+
+**How to Demo**
 Register or login as a farmer (or use the seeded farmer).
 Add a new product.
 Logout and login as a seller (or use the seeded seller).
@@ -114,7 +118,7 @@ Login as a farmer to show order notifications via the orders endpoint (or the ad
 
 
 
-API Endpoints
+**API Endpoints**
 
 Authentication
 POST /api/auth/register: Register a new user.
@@ -129,19 +133,19 @@ Admin
 GET /api/admin/price-dashboard: Fetch pricing data for the admin dashboard.
 
 
-Next Steps
+**Next Steps**
 Replace mock payment with MTN/Airtel integration in production.
 Add SMS notifications and offline-first sync for low-connectivity scenarios.
 Harden authentication (rate limiting, stronger token handling).
 
 
-Contributions
+**Contributions**
 Contributions are welcome! If you'd like to contribute to the project, please create a pull request or submit an issue for any enhancements you think could improve the project.
 
-License
+**License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Author
+**Author**
 Name: Joshua Mugisha
 Degree: BSc in Software Engineering
 Year: 2
